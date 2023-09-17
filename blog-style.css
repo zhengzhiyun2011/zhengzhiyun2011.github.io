@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  min-width: 800px;
+}
+
+nav {
+  padding: 5px;
+  background-color: lightgray;
+}
+
+article {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+div.blog-div {
+  width: 80vw;
+  text-align: left;
+  font-size: large;
+  white-space: pre;
+}
+
+a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+a.nav-link {
+  margin: 5px;
+  padding: 2.5px 5px 2.5px 5px;
+  text-decoration: none;
+  background-color: gray;
+  color: lightgray;
+}
+
+h1.head-title {
+  margin-top: -0.25vh;
+  margin-bottom: 0px;
+  padding: 20px;
+
+  text-align: center;
+  color: black;
+  background-color: aqua;
+}
+
+h1.article-title {
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+}

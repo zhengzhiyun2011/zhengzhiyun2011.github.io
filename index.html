@@ -1,35 +1,29 @@
 <!DOCTYPE html>
-
 <html lang="zh">
-    <head>
-        <meta charset="utf-8" />
-        <title>Hello World</title>
-        <script>
-            var pos = 0;
-            var word_list = ["你干嘛~~~", "你别点了", "求求你", "好吧", "没东西了", "真没东西了"]
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <title>我的博客</title>
+    <link href="blog-style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-            function func() {
-                if (pos < word_list.length) {
-                    document.getElementById("123").innerHTML = word_list[pos++];
-                } else if (pos == word_list.length) {
-                    document.getElementById("e").style.display = "";
-                    ++pos;
-                } else {
-                    document.getElementById("123").innerHTML = "吓死你！";
-                    document.getElementsByTagName("html")[0].style.backgroundColor = "red";
-                    document.getElementById("e").style.display = "none";
-                }
-            }
-        </script>
-    </head>
-    <body>
-        <h1 style="text-align: center;">Hello World!</h1>
-        <div style="text-align: center;"><button
-            onclick="func()"
-            id="123"
-            style="height: 10vh;
-            width: 20vw;">???</button>
+  <body>
+    <header>
+      <h1 class="head-title">ZZY的博客</h1>
+    </header>
+    <nav>
+      <a class="nav-link" href="https://zhengzhiyun2011.github.io">主页</a>
+    </nav>
+    <!-- 正文 -->
+    <main>
+      <h1 class="article-title">欢迎来到ZZY的博客</h1>
+
+      <article>
+        <div class="blog-div">
+          你好，这里是我的博客。
+
+          这是我的<a href="https://blog.csdn.net/zhengzhiyun2011?spm=1000.2115.3001.5343">csdn</a>。
         </div>
-        <div id="e" style="display: none;">吓你一跳</div>
-    </body>
+      </article>
+    </main>
+  </body>
 </html>
