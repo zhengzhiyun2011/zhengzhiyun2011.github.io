@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'genshin-impact';
+  src: url('hk4e_zh-cn.ttf');
+}
+
 body {
   margin: 0px;
   min-width: 800px;
@@ -58,4 +63,8 @@ h1.article-title {
   text-align: center;
   color: black;
   font-size: xx-large;
+}
+
+* {
+  font-family: 'genshin-impact', sans-serif;
 }
